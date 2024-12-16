@@ -4,5 +4,11 @@ body{
     text-align: center;
     
 }
-button {color: white}
+button {
+    border: none;
+    padding: 5px;
+    color: white;
+    width: 300px;
+
+}
 p{color: gold;}
