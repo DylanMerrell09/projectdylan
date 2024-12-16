@@ -5,10 +5,12 @@ body{
     
 }
 button {
-    border: none;
-    padding: 5px;
-    color: white;
-    width: 300px;
+    border-style: dashed;
+    border-width: 3px;
+    padding: 15px 32px;
+    margin: 4px 2px;
+    background-color: white;
+    color: black;
 
 }
 p{color: gold;}
