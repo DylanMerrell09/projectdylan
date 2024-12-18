@@ -21,13 +21,13 @@ body{
 }
 
 .button-left{
-    position:absolute;
+    position:fixed;
     left: 100px;
     margin-left: 20px;
 }
 
 .button-right{
-    position: absolute;
+    position: fixed;
     right: 100px;
     margin-right: 100px;
 }
