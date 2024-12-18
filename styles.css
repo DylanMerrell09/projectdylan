@@ -1,7 +1,7 @@
 body{
     margin: 0;
     text-align: center;
-    font-family: Arial, sans-serif;
+    font-family: "comic sans ms", cursive, sans-serif;
     
 }
 
@@ -9,7 +9,7 @@ header {
     background-color: rgb(214, 15, 15);
     color:white;
     text-align:center;
-    padding: 20px;
+    padding: 15px;
 }
 
 /* This is the layout for the top left button*/
@@ -39,7 +39,7 @@ header {
 .center-button-container{
     position: absolute;
     top: 200px;
-    left: 45%;
+    left: 400px;
     text-align: center;
 }
 
@@ -56,9 +56,36 @@ header {
 
 }
 
+
+
 .center-button:hover{ /* This is to make the button change color when the cursor is over it */
     background-color: purple;
 }
+
+.botleft-button-container{
+    position: absolute;
+    top: 400px;
+    left: 5px;
+    text-align: center;
+}
+
+.botleft-button{
+    padding: 15px 32px; 
+    color: white;
+    background-color: rgb(214, 15, 15); 
+    display: inline-block;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.botleft-button:hover{ /* This is to make the button change color when the cursor is over it */
+    background-color: purple;
+}
+
+
 
 .button-text{  /* This is for the text above the button */
     font-size: 18px;     

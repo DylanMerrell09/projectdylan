@@ -1,12 +1,12 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: "comic sans ms", cursive, sans-serif;
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
     color: #333;
 }
 
-/* Header styling */
+
 header {
     background-color: rgb(45, 191, 13);
     color: white;
@@ -18,31 +18,49 @@ header h1 {
     margin: 0;
 }
 
-/* Main content area */
+
 .content {
     margin: 20px;
 }
 
-/* Styling for each section */
+
 .section {
     margin-bottom: 30px;
 }
 
-/* Style for section headers */
+
 h3 {
     font-size: 20px;
     font-weight: bold;
-    text-decoration: underline; /* Underline the section headers */
+    text-decoration: underline; 
     margin-bottom: 10px;
 }
 
-/* Paragraph styling */
+
 p {
     font-size: 14px;
     line-height: 1.6;
 }
 
-/* Footer styling */
+.home-button {
+    padding: 10px 20px;
+    background-color: white; 
+    color: #d32f2f; 
+    border: 2px solid #d32f2f; 
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+
+.home-button:hover {
+    background-color: #d32f2f; 
+    color: white; 
+}
+
+
 footer {
     background-color:rgb(45, 191, 13);
     color: white;
