@@ -16,14 +16,19 @@ body{
 }
 
 .button-top{
+    top: 20px;
     margin-top: 20px;
 }
 
 .button-left{
+    position:absolute;
+    left: 100px;
     margin-left: 20px;
 }
 
 .button-right{
+    position: absolute;
+    right: 100px;
     margin-right: 100px;
 }
 
