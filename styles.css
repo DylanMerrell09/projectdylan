@@ -39,7 +39,7 @@ header {
 .center-button-container{
     position: absolute;
     top: 200px;
-    left: 45%;
+    left: 50%;
     text-align: center;
 }
 
@@ -92,6 +92,24 @@ header {
     font-weight: bold;   
     text-decoration: underline;  
     margin-bottom: 10px
+}
+
+.home-button {
+    padding: 10px 20px;
+    background-color: white; 
+    color: #12b207; 
+    border: 2px solid #d32f2f; 
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+
+.home-button:hover {
+    background-color: #d32f2f; 
+    color: white; 
 }
 
 
