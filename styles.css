@@ -4,26 +4,43 @@ body{
     font-family: Arial, sans-serif;
     
 }
-.button{
-    display: inline-block;
-    border-style: solid;
-    border-width: 3px;
-    border-radius: 3px;
-    cursor: pointer;
-    padding: 15px 32px;
-    background-color: gold;
-    color: black;
+
+.button-container { /* This is the general layout of the button objects*/
+    position: absolute; 
+    top: 150px;           
+    left: 150px;       
+    text-align: center;  
 }
+
+.button-text{  /* This is for the text above the button */
+    font-size: 18px;     
+    font-weight: bold;   
+    text-decoration: underline;  
+    margin-bottom: 10px
+}
+
+.button-container:hover{ /* This is to make the button change color when the cursor is over it */
+    background-color: purple;
+}
+
+/*The following objects are descriptive, and are used to help 
+ determine the location of the button container*/
 
 .button-top{
     top: 200px;
     margin-top: 20px;
 }
 
-.button-left{
-    position:fixed;
-    left: 150px;
-    margin-left: 20px;
+.button-top-left{
+    padding: 15px 32px; 
+    color: black;
+    background-color: gold; 
+    display: inline-block;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s;
 }
 
 .button-right{
@@ -37,16 +54,14 @@ body{
     margin-right: auto;
 }
 
-.button:hover{
-    background-color: purple;
-}
-
 .button-leftcorner{
     position: fixed;
     left: 10px;
     top: 10px;
     margin: 20px 20px;
 }
+
+
 
 header {
     color: black;
