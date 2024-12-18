@@ -41,6 +41,13 @@ body{
     background-color: purple;
 }
 
+.button-leftcorner{
+    position: fixed;
+    left: 0;
+    top: 0;
+    margin: 20px 20px;
+}
+
 header {
     color: black;
     padding: 1rem 0;
