@@ -127,3 +127,52 @@ p{
     color: rgb(214, 15, 15);
 
 }
+
+.dark-mode-toggle {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    z-index: 1000;
+}
+
+body.dark-mode {
+    --background-color: #121212; 
+    --text-color: #e0e0e0; 
+}
+
+body.dark-mode header {
+    --header-background: #1a1a1a; 
+    --header-text-color: #ffffff; 
+}
+
+body.dark-mode .button-container,
+body.dark-mode .center-button-container,
+body.dark-mode .botleft-button-container {
+    background-color: #333; 
+    color: #e0e0e0;
+}
+
+body.dark-mode .button-text {
+    color: #e0e0e0;
+}
+
+body.dark-mode button {
+    --button-background: #333; 
+    --button-text-color: #ff7043; 
+    --button-border-color: #ff7043; 
+}
+
+body.dark-mode button:hover {
+    --button-hover-background: #ff7043;
+    --button-hover-text-color: #121212;
+}
+
+body.dark-mode footer {
+    background-color: #1a1a1a; 
+    color: #e0e0e0;
+}
+
