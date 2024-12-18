@@ -17,11 +17,11 @@ body{
 }
 
 .button-top{
-    margin-top: 50px;
+    margin-top: 20px;
 }
 
 .button-left{
-    margin-left: 50px;
+    margin-left: 20px;
 }
 
 .button-right{
@@ -32,6 +32,11 @@ body{
     margin-left: auto;
     margin-right: auto;
 }
+
+.button:hover{
+    background-color: purple;
+}
+
 
 header {
     color: black;
