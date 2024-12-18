@@ -16,13 +16,13 @@ body{
 }
 
 .button-top{
-    top: 20px;
+    top: 200px;
     margin-top: 20px;
 }
 
 .button-left{
     position:fixed;
-    left: 100px;
+    left: 150px;
     margin-left: 20px;
 }
 
@@ -40,7 +40,6 @@ body{
 .button:hover{
     background-color: purple;
 }
-
 
 header {
     color: black;
