@@ -8,7 +8,7 @@ body {
 
 /* Header styling */
 header {
-    background-color: rgb(214, 15, 15)a;
+    background-color: rgb(45, 191, 13);
     color: white;
     text-align: center;
     padding: 15px;
@@ -44,7 +44,7 @@ p {
 
 /* Footer styling */
 footer {
-    background-color: rgb(214, 15, 15);
+    background-color:rgb(45, 191, 13);
     color: white;
     text-align: center;
     padding: 8px;
